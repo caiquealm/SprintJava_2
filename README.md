@@ -76,7 +76,7 @@ ajudando-os a aprender a tocar o instrumento musical que desejarem.
 
 # Como acessar
 ```shell
-git clone https://github.com/caiquealm/Sprint_1_java && cd Sprint_1_java 
+ git clone https://github.com/caiquealm/SprintJava_2
 ```
 
 <a id="_Diagrama_de_Classes"></a>
@@ -87,5 +87,5 @@ git clone https://github.com/caiquealm/Sprint_1_java && cd Sprint_1_java
 <a id="#_Link_Video_Pitch"></a>
 
 # Link do Video
-[Pitch](https://www.youtube.com/watch?v=cvNdVcVRNn8)
+[Pitch]https://youtu.be/JtVGI9Nvl3o
 
