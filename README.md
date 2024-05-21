@@ -1,4 +1,4 @@
-# SPRINT 1 - DELIVERY GUARDIAN
+# SPRINT 2 - CHALLENGE PLUSOFT 
 
 |          | **Java Advanced** |
 |------------------------------------------|-------------------|
@@ -10,7 +10,7 @@
 | **ALUNO:** ANA CAROLINA TAVARES | RM: 552283       |
 
 
-# Sprin 1 - Java
+# Sprin 2 - Java
 
 
 [Proposta da Solução ](#_Proposta_da_Solução)
@@ -27,58 +27,50 @@
 
 # Proposta da Solução
 
-
-O negócio é fornecer soluções de Assistência Virtual para Clientes para
-empresas B2B. Isso envolve desenvolver e implementar sistemas de suporte
-automatizado e personalizado durante o processo de entrega de produtos ou
-serviços. O objetivo é oferecer uma experiência superior ao cliente, fornecendo
-respostas rápidas e precisas às consultas dos clientes, melhorando a eficiência
-operacional e fortalecendo os relacionamentos comerciais entre empresas
-fornecedoras e seus clientes.
-A junção de uma IA generativa para uma conversa mais natural com os
-clientes, e a análise profunda de dados para solucionar problemas específicos
-de cada empresa, torna a relação menos burocrática e “travada” com os
-clientes, ao mesmo tempo que soluciona cada problema de maneira única.
+Decidimos ajustar o escopo do projeto para a segunda sprint, considerando o feedback recebido na primeira sprint, que não foi tão positivo.
+Desenvolvemos uma API em Java que servirá como base para um aplicativo/site voltado para deficientes auditivos, 
+ajudando-os a aprender a tocar o instrumento musical que desejarem.
 
 1. **Repositorios** 
- 1. ClienteRepository
- 2. DevolucaoRepository
- 3. EmpresaRepository
- 4. EnderecoRepository
- 5. ProdutoRepository
- 6. StatusPedidoSolicitanteRepository
- 7. TelefoneRepository    
+ 1. AcessibilidadeRepository
+ 2. FeedbackRepository
+ 3. UsuarioRepository
+ 4. ProgressoRepository
+ 5. LicaoRepository
+ 6. InstrumentoRepository
+   
  
 2.**Resources**  
- 2.**DevolucaoResource** - Verbos GET e POST:  
+ 2.**AcessibilidadeResource** - Verbos GET e POST:  
   1. "localhost/devolucao" - GET
   2. "localhost/devolucao" - POST
   3. "localhost/devolucao/{id}" - GET
 
- 3.**EmpresaResource** - Verbos GET e POST:  
+ 3.**FeedbackResource** - Verbos GET e POST:  
   1."localhost/empresa" - GET  
   2."localhost/empresa" - POST  
   3."localhost/empresa/{id}" - GET
  
- 4.**EnderecoResource** - Verbos GET e POST:  
+ 4.**UsuarioResource** - Verbos GET e POST:  
   1."localhost/endereco" - GET  
   2."localhost/endereco" - POST  
   3."localhost/endereco/{id}" - GET
  
- 5.**ProdutoResource** - Verbos GET e POST:  
+ 5.**ProgressoResource** - Verbos GET e POST:  
   1."localhost/produto" - GET  
   2."localhost/produto" - POST  
   3."localhost/produto/{id}" - GET
     
- 6.**StatusPedidoResource** - Verbos GET e POST:  
+ 6.**LicaooResource** - Verbos GET e POST:  
   1."localhost/statuspedido" - GET  
   2."localhost/statuspedido" - POST  
   3."localhost/statuspedido/{id}" - GET
     
- 7.**TelefoneResource** - Verbos GET e POST:  
+ 7.**InstrumentoResource** - Verbos GET e POST:  
   1."localhost/telefone" - GET  
   2."localhost/telefone" - POST  
-  3."localhost/telefone/{id}" - GET
+  3."localhost/telefone/{id}" - 
+
 
 <a id="#_Como_Acessar"></a>
 
@@ -90,7 +82,7 @@ git clone https://github.com/caiquealm/Sprint_1_java && cd Sprint_1_java
 <a id="_Diagrama_de_Classes"></a>
 
 # Diagrama de Classes
-![foto-diagrama-de-classes.PNG](documentação%2Ffoto-diagrama-de-classes.PNG)
+![foto-diagrama-de-classes.PNG]GET![Diagrama](https://github.com/caiquealm/SprintJava_2/assets/103912656/1a9203e1-2600-4ee4-9760-cf7092f9c83e)
 
 <a id="#_Link_Video_Pitch"></a>
 
