@@ -82,9 +82,10 @@ ajudando-os a aprender a tocar o instrumento musical que desejarem.
 <a id="_Diagrama_de_Classes"></a>
 
 # Diagrama de Classes
-![foto-diagrama-de-classes.PNG](https://github.com/caiquealm/SprintJava_2/assets/103912656/1a9203e1-2600-4ee4-9760-cf7092f9c83e)
+![Diagrama](https://github.com/caiquealm/SprintJava_2/assets/103912656/5ba6d48c-ac50-4929-ba5e-f230c82e674f)
 
 <a id="#_Link_Video_Pitch"></a>
+
 
 # Link do Video
 [Pitch]https://youtu.be/JtVGI9Nvl3o
