@@ -82,7 +82,7 @@ git clone https://github.com/caiquealm/Sprint_1_java && cd Sprint_1_java
 <a id="_Diagrama_de_Classes"></a>
 
 # Diagrama de Classes
-![foto-diagrama-de-classes.PNG]GET![Diagrama](https://github.com/caiquealm/SprintJava_2/assets/103912656/1a9203e1-2600-4ee4-9760-cf7092f9c83e)
+![foto-diagrama-de-classes.PNG](https://github.com/caiquealm/SprintJava_2/assets/103912656/1a9203e1-2600-4ee4-9760-cf7092f9c83e)
 
 <a id="#_Link_Video_Pitch"></a>
 
