@@ -21,8 +21,6 @@
 
 [Link_Video_Pitch](#_Link_Video_Pitch)
 
-[Testes_API](#_Testes_API)
-
 <a id="#_Proposta_da_Solução"></a>
 
 # Proposta da Solução
@@ -64,4 +62,5 @@ A classe Usuario gerencia os dados dos usuários do site. Ela inclui informaçõ
 
 # Link do Video
 [Pitch]https://youtu.be/JtVGI9Nvl3o
+
 
