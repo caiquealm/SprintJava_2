@@ -21,8 +21,6 @@
 
 [Link_Video_Pitch](#_Link_Video_Pitch)
 
-[Testes_API](#_Testes_API)
-
 <a id="#_Proposta_da_Solução"></a>
 
 # Proposta da Solução
@@ -31,45 +29,20 @@ Decidimos ajustar o escopo do projeto para a segunda sprint, considerando o feed
 Desenvolvemos uma API em Java que servirá como base para um aplicativo/site voltado para deficientes auditivos, 
 ajudando-os a aprender a tocar o instrumento musical que desejarem.
 
-1. **Repositorios** 
- 1. AcessibilidadeRepository
- 2. FeedbackRepository
- 3. UsuarioRepository
- 4. ProgressoRepository
- 5. LicaoRepository
- 6. InstrumentoRepository
-   
- 
-2.**Resources**  
- 2.**AcessibilidadeResource** - Verbos GET e POST:  
-  1. "localhost/devolucao" - GET
-  2. "localhost/devolucao" - POST
-  3. "localhost/devolucao/{id}" - GET
+1. Feedback
+A classe Feedback gerencia as opiniões e sugestões fornecidas pelos usuários sobre suas experiências no site. Cada feedback inclui informações importantes como a legenda, a descrição em áudio (transcrição), o contraste visual utilizado, e o tamanho da fonte para garantir a acessibilidade. A classe também armazena a resposta dada ao feedback.
 
- 3.**FeedbackResource** - Verbos GET e POST:  
-  1."localhost/empresa" - GET  
-  2."localhost/empresa" - POST  
-  3."localhost/empresa/{id}" - GET
- 
- 4.**UsuarioResource** - Verbos GET e POST:  
-  1."localhost/endereco" - GET  
-  2."localhost/endereco" - POST  
-  3."localhost/endereco/{id}" - GET
- 
- 5.**ProgressoResource** - Verbos GET e POST:  
-  1."localhost/produto" - GET  
-  2."localhost/produto" - POST  
-  3."localhost/produto/{id}" - GET
-    
- 6.**LicaooResource** - Verbos GET e POST:  
-  1."localhost/statuspedido" - GET  
-  2."localhost/statuspedido" - POST  
-  3."localhost/statuspedido/{id}" - GET
-    
- 7.**InstrumentoResource** - Verbos GET e POST:  
-  1."localhost/telefone" - GET  
-  2."localhost/telefone" - POST  
-  3."localhost/telefone/{id}" - 
+2. Instrumento
+A classe Instrumento é responsável por armazenar informações sobre os diversos instrumentos musicais disponíveis para aprendizagem no site. Cada instrumento é categorizado e possui um nível de dificuldade associado, ajudando os usuários a escolherem o instrumento mais adequado às suas habilidades e preferências.
+
+3. Licao
+A classe Licao representa as lições musicais oferecidas no site. Cada lição inclui um nome, título, descrição e um vídeo de demonstração, facilitando o aprendizado prático dos usuários. Além disso, cada lição pode estar associada a vários instrumentos, permitindo um aprendizado diversificado.
+
+4. Progresso
+A classe Progresso rastreia o desenvolvimento dos usuários ao longo de suas lições. Ela armazena informações sobre a progressão e a pontuação alcançada, ajudando os usuários a monitorarem seu desempenho e evolução no aprendizado musical.
+
+5. Usuario
+A classe Usuario gerencia os dados dos usuários do site. Ela inclui informações básicas como nome, email e senha (armazenada de forma segura). Essa classe é essencial para a autenticação e autorização dos usuários, permitindo o acesso personalizado e seguro às funcionalidades do site.
 
 
 <a id="#_Como_Acessar"></a>
@@ -89,4 +62,5 @@ ajudando-os a aprender a tocar o instrumento musical que desejarem.
 
 # Link do Video
 [Pitch]https://youtu.be/JtVGI9Nvl3o
+
 
