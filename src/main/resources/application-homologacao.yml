@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL
-    username: rm551289
-    password: 010502
+    username: rm98837
+    password: 280101
   jpa:
     show-sql: true
     open-in-view: true

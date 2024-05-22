@@ -14,6 +14,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "TB_ACESSIBILIDADE")
 public class Acessibilidade {
     @Id
+    @Column(name = "ID_ACESSIBILIDADE")
     @GeneratedValue(generator = "SQ_ACESSIBILIDADE",strategy = GenerationType.SEQUENCE)
     @SequenceGenerator(name = "SQ_ACESSIBILIDADE",sequenceName = "SQ_ACESSIBILIDADE",allocationSize = 1)
     private Long id;

@@ -1,0 +1,358 @@
+{
+	"info": {
+		"_postman_id": "5ae74ffa-9116-4401-994a-2f69ec579846",
+		"name": "DoraCode",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33750233",
+		"_collection_link": "https://tdspj7.postman.co/workspace/2TDSPJ-Workspace~03a4852c-57c8-40aa-8afc-e3864d5ca168/collection/33750233-5ae74ffa-9116-4401-994a-2f69ec579846?action=share&source=collection_link&creator=33750233"
+	},
+	"item": [
+		{
+			"name": "Usuario",
+			"item": [
+				{
+					"name": "localhost/usuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Giovanni\",\r\n    \"email\": \"rm98837@fiap.com.br\",\r\n    \"senha\": \"12345678\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost/usuario",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost/usuario",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost/usuario",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost/usuario/id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost/usuario/1",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"usuario",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Progresso",
+			"item": [
+				{
+					"name": "localhost/progresso",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"progressao\":\"50%\",\r\n    \"pontuacao\": 50,\r\n    \"usuario\": {\r\n        \"id\": 1\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost/progresso",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"progresso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost/progresso",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost/progresso",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"progresso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost/progresso/id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost/progresso/1",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"progresso",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Feedback",
+			"item": [
+				{
+					"name": "localhost/feedback",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"resposta\": \"Obrigado pelo seu feedback, ele será considerado para melhorarmos nossa plataforma.\",\r\n    \"textFeedback\": \"Plataforma muito boa, porém o assistente de voz pode melhorar em palavras com acento circunflexo.\",\r\n    \"usuario\": {\r\n        \"id\": 1 \r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost/feedback",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"feedback"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost/feedback",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost/feedback",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"feedback"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost/feedback/1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost/feedback/1",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"feedback",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Instrumento",
+			"item": [
+				{
+					"name": "localhost/instrumento",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomeInstrumento\": \"Violão\",\r\n    \"categoria\": \"Corda\",\r\n    \"dificuldade\": \"Fácil\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost/instrumento",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"instrumento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost/instrumento",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost/instrumento",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"instrumento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost/instrumento/id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost/instrumento/1",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"instrumento",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Licao",
+			"item": [
+				{
+					"name": "localhost/licao",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomeLicao\": \"Nota Ré\",\r\n    \"titulo\": \"Acordes\",\r\n    \"descricao\": \"Aprendendo os acordes-Ré\",\r\n    \"instrumento\": {\r\n        \"id\": 1\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost/licao",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"licao"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost/licao",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "localhost/licao/1",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
