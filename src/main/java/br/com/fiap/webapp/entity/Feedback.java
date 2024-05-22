@@ -18,6 +18,7 @@ public class Feedback {
     @Id
     @GeneratedValue(generator = "SQ_FEEDBACK",strategy = GenerationType.SEQUENCE)
     @SequenceGenerator(name = "SQ_FEEDBACK",sequenceName = "SQ_FEEDBACK",allocationSize = 1)
+    @Column(name = "ID_FEEDBACk")
     private Long id;
 
     private String textFeedback;

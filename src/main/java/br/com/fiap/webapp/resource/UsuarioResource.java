@@ -6,6 +6,7 @@ import br.com.fiap.webapp.entity.Usuario;
 import br.com.fiap.webapp.service.UsuarioService;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
@@ -17,7 +18,9 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.util.Collection;
 import java.util.Objects;
 
-@Service
+@RestController
+@RequestMapping(value = "/usuario")
+@RequiredArgsConstructor
 public class UsuarioResource implements ResourceDTO<Usuario, UsuarioRequest, UsuarioResponse> {
 
     @Autowired

@@ -6,6 +6,7 @@ import br.com.fiap.webapp.entity.Feedback;
 import br.com.fiap.webapp.service.FeedbackService;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
@@ -17,7 +18,9 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.util.Collection;
 import java.util.Objects;
 
-@Service
+@RestController
+@RequestMapping(value = "/feedback")
+@RequiredArgsConstructor
 public class FeedbackResource implements ResourceDTO<Feedback, FeedbackRequest, FeedbackResponse> {
 
     @Autowired

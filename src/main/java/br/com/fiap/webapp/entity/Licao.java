@@ -19,6 +19,7 @@ import java.util.Set;
 public class Licao {
 
     @Id
+    @Column(name = "ID_LICAO")
     @GeneratedValue(generator = "SQ_LICAO", strategy = GenerationType.SEQUENCE)
     @SequenceGenerator(name = "SQ_LICAO", sequenceName = "SQ_LICAO", allocationSize = 1)
     private Long id;

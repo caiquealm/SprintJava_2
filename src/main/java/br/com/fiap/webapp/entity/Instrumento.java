@@ -14,6 +14,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "TB_INSTRUMENTO")
 public class Instrumento {
     @Id
+    @Column(name = "ID_INSTRUMENTO")
     @GeneratedValue(generator = "SQ_INSTRUMENTO",strategy = GenerationType.SEQUENCE)
     @SequenceGenerator(name = "SQ_INSTRUMENTO",sequenceName = "SQ_INSTRUMENTO",allocationSize = 1)
     private Long id;

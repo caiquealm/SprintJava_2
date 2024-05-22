@@ -14,6 +14,7 @@ import br.com.fiap.webapp.service.LicaoService;
 import br.com.fiap.webapp.service.UsuarioService;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
@@ -26,7 +27,9 @@ import java.util.Collection;
 import java.util.Objects;
 import java.util.Set;
 
-@Service
+@RestController
+@RequestMapping(value = "/licao")
+@RequiredArgsConstructor
 public class LicaoResource implements ResourceDTO<Licao, LicaoRequest, LicaoResponse>{
     @Autowired
     LicaoService service;
